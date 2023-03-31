@@ -96,8 +96,8 @@ if __name__ == '__main__':
     # strategy parameters
     SYMBOL = "EURUSD"
     VOLUME = 1.0
-    TIMEFRAME = mt5.TIMEFRAME_M1
-    SMA_PERIOD = 10
+    TIMEFRAME = mt5.TIMEFRAME_D1
+    SMA_PERIOD = 50
     DEVIATION = 20
 
     mt5.initialize()
